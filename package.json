@@ -4,7 +4,7 @@
   "description": "Generador de QRs",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node server.js"
   },
   "author": "Josep Romaní Meneses",
   "license": "ISC",
