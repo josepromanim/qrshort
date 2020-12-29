@@ -24,4 +24,4 @@ mongoose.connect(
 );
 
 //Start the server in the port 3000
-app.listen(process.env.PORT || 3000);
+app.listen(process.env.PORT || 80);
