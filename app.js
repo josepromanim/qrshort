@@ -24,4 +24,7 @@ mongoose.connect(
 );
 
 //Start the server in the port 3000
-app.set('port', process.env.PORT || 3000);
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+    console.log(`Our app is running on port ${ PORT }`);
+});
