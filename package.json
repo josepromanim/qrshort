@@ -1,0 +1,20 @@
+{
+  "name": "qr",
+  "version": "0.0.1",
+  "description": "Generador de QRs",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Josep Romaní Meneses",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.9.0",
+    "mongoose": "^5.11.9",
+    "nanoid": "^3.1.20",
+    "nodemon": "^2.0.6"
+  }
+}
